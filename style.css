@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-left: 150px; /* Ajuste o valor conforme necessário */
+}
+
+
+.logo {
+    display: flex;
+    height: 5rem;
+    width: 120px;
+   
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+}
+
+nav ul li {
+    margin-right: 1rem;
+    border: #000000 1px solid;
+    font-weight: 800;
+    padding: 10px 15px; /* Ajuste o padding conforme necessário */
+    background-color: #ff9100; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    border-radius: 20px; /* Borda arredondada, se desejar */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li.active {
+    background-color: #0077cc;
+    color: #fff;
+}
+
+
+main{padding: 0;
+margin: 0;}
+
+.hero {
+    background-image: url("hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ff9100;
+    text-align: center;
+    padding-top: 80px;
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+}
+.imgprincipal{
+   
+        max-width: 100%;
+        height: auto;
+    
+}
+
+.primary-button, .secondary-button, .whatsapp-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.primary-button {
+    background-color: #ff9100;
+    color: #fff;
+    margin-top: 1.5rem;
+}
+
+.secondary-button {
+    background-color: #ff9100;
+    color: #fff;
+    margin-top: 1.5rem;
+    padding: 3px;
+}
+
+.whatsapp-button {
+    background-color: #ff9100;
+    color: #fff;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    background-color: #f2f2f2;
+}
+
+.feature {
+    flex-basis: 20%;
+    text-align: center;
+    margin-bottom: 2rem; /* Adicione espaço entre os recursos */
+}
+
+.feature img {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    background-color: #005a9c;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
